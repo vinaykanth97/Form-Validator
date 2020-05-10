@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Forms</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <form class="general-form">
+            <!-- Genral form starts -->
+            <div class="general-info">
+                <h1 class="mb-space">General Information</h1>
+
+                <select name="context" id="context" class="mb-space full-width dyn-field">
+                    <option value="About Story">About Story</option>
+                    <option value="Magazine">Magazine</option>
+                    <option value="Poltics">Poltics</option>
+                    <option value="Current Affairs">Current Affairs</option>
+                </select>
+                <div class="names mb-space d-flex pos-rel">
+                    <div class="mr fl-1 pos-rel">
+                        <input type="text" name="fname" id="firstname" class="name-field  dyn-field"
+                            placeholder="First Name" />
+                        <div class="attention">
+                            <span class="att-image">
+                                <img src="./images/attention.svg" alt="">
+                            </span>
+                            <span class="error-msg"></span>
+                        </div>
+                    </div>
+                    <div class="ml fl-1 pos-rel">
+                        <input type="text" name="lname" id="lastname" class="name-field  dyn-field"
+                            placeholder="Last Name" />
+                        <div class="attention">
+                            <span class="att-image">
+                                <img src="./images/attention.svg" alt="">
+                            </span>
+                            <span class="error-msg"></span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <select name="job-role" id="job-role" class="mb-space full-width dyn-field">
+                    <option value="Employee">Employee</option>
+                    <option value="Merchant">Merchant</option>
+                    <option value="Poltician">Poltician</option>
+                    <option value="Police">Police</option>
+                </select>
+                <div class="radio-btns mb-space d-flex">
+                    <input type="radio" name="gender" id="male" class="radio-btns dyn-field gender" value="male" />
+                    <label for="male" class="mr"> Male</label>
+                    <input type="radio" name="gender" id="female" class="radio-btns ml dyn-field gender"
+                        value="female" />
+                    <label for="female"> female</label>
+                </div>
+
+                <div class=" fl-1 pos-rel">
+                    <input type="text" name="company" id="company" class="name-field mb-space dyn-field"
+                        placeholder="Company" />
+                    <div class="attention">
+                        <span class="att-image">
+                            <img src="./images/attention.svg" alt="">
+                        </span>
+                        <span class="error-msg"></span>
+                    </div>
+                </div>
+                <div class="business-details d-flex mb-space al-center">
+                    <div class="mr fl-1 pos-rel">
+                        <input type="text" name="bus-arena" id="bus-arena" class="name-field mr dyn-field"
+                            placeholder="Business Arena" />
+                        <div class="attention">
+                            <span class="att-image">
+                                <img src="./images/attention.svg" alt="">
+                            </span>
+                            <span class="error-msg"></span>
+                        </div>
+                    </div>
+                    <select name="exp" id="exp" class="dyn-field">
+                        <option value="0-20">0-20</option>
+                        <option value="20-40">20-40</option>
+                        <option value="100+">100+</option>
+                        <option value="1000+">1000+</option>
+                    </select>
+                </div>
+            </div>
+            <!-- Genral form Ends -->
+            <!-- Contact Details Starts -->
+            <div class="contact-details">
+                <h1 class="mb-space">Contact Details</h1>
+                <div class="pos-rel">
+                    <input type="text" name="street" id="street" class="name-field mb-space dyn-field"
+                        placeholder="Street" />
+                    <div class="attention">
+                        <span class="att-image">
+                            <img src="./images/attention.svg" alt="">
+                        </span>
+                        <span class="error-msg"></span>
+                    </div>
+                </div>
+
+                <input type="text" name="additional-info" id="add-info" class="name-field mb-space dyn-field"
+                    placeholder="Additional Information" />
+                <div class="place mb-space d-flex">
+                    <div class="pos-rel fl-1 mr">
+                        <input type="number" name="number" id="zipcode" class="name-field dyn-field"
+                            placeholder="Zip Code" />
+                        <div class="attention">
+                            <span class="att-image">
+                                <img src="./images/attention.svg" alt="">
+                            </span>
+                            <span class="error-msg"></span>
+                        </div>
+                    </div>
+
+                    <select name="state" id="state" class="dyn-field">
+                        <option value="Bihar">Bihar</option>
+                        <option value="Assam">Magazine</option>
+                        <option value="Bangalore">Bangalore</option>
+                        <option value="Jodhpur">Jodhpur</option>
+                    </select>
+                </div>
+
+                <select name="country" id="country" class="mb-space full-width dyn-field">
+                    <option value="India">India</option>
+                    <option value="US">US</option>
+                    <option value="Germany">Germany</option>
+                    <option value="Pakistan">Pakistan</option>
+                </select>
+                <div class="phone-details mb-space d-flex">
+                    <div class="pos-rel">
+                        <input type="number" name="code" id="code" class="name-field mr dyn-field"
+                            placeholder="Code +" />
+                        <div class="attention">
+                            <span class="att-image">
+                                <img src="./images/attention.svg" alt="">
+                            </span>
+                            <span class="error-msg"></span>
+                        </div>
+                    </div>
+                    <div class="pos-rel fl-1">
+                        <input type="number" name="phone-number" id="phone-number" class="name-field ml dyn-field"
+                            placeholder="Phone Number" />
+                        <div class="attention">
+                            <span class="att-image">
+                                <img src="./images/attention.svg" alt="">
+                            </span>
+                            <span class="error-msg"></span>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="pos-rel">
+                    <input type="text" name="email" id="email" class="name-field mb-space dyn-field"
+                        placeholder="Your Email" />
+                    <div class="attention">
+                        <span class="att-image">
+                            <img src="./images/attention.svg" alt="">
+                        </span>
+                        <span class="error-msg"></span>
+                    </div>
+                </div>
+
+                <div class="agreement  mb-space d-flex">
+                    <input type="checkbox" name="agree" id="agree" class="accept mr dyn-field" value="agree" />
+                    <label for="agree" class="">I do accept the <strong>Terms and Conditions</strong> of your
+                        site</label>
+                </div>
+
+                <input type="submit" value="Register Badge" />
+            </div>
+        </form>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
